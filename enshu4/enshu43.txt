@@ -1,0 +1,15 @@
+atoi関数
+
+書式
+#include<stdlib.h>
+
+int atoi(const char *String)
+
+
+説明
+文字列で表現された数値をint型に変換する。
+変換不能なアルファベットなどの文字列の場合は０を返すが数値が先頭にあればその値を返す。[1]
+
+
+参考文献
+[1] C言語 atoi http://hitorilife.com/atoi.php 2017/05/01
